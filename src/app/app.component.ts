@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  heading = 'Person Details';
+  person: any = {
+    name: {
+      first: 'Michard',
+      last: 'Tornado',
+    },
+    gender: 'Attack Helicopter',
+    living: 'homeless'
+  };
 }
